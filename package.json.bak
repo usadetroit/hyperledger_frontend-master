@@ -6,9 +6,7 @@
   "scripts": {
     "server": "nodemon",
     "client": "npm start --prefix end-user",
-    "client2": "npm start --prefix administrator",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "dev2": "concurrently \"npm run server\" \"npm run client2\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
